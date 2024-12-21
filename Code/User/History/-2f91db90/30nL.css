@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #33ccff;
+    font-size: 50;
+}
+
+.neonText {
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+
+html {
+    background: linear-gradient(0deg,#33ccff 0%, black 51%);
+}
+
+video{
+    float: center;
+    border-radius: 24px;
+}
+
+source{
+    border-radius: 24px;
+}
+
+div {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    border: 2px solid #33ccff;
+    border-radius: 12px;
+    width: 70%;
+    height: 88%;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    background-color: black;
+  }

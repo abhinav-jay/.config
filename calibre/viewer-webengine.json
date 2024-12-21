@@ -1,0 +1,103 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1015,
+      "width": 939,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1015,
+      "width": 939,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 1041,
+      "width": 960,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA6oAAAP2AAAAAAAAAAAAAAO/AAAEEAAAAAACAAAAB4AAAAAAAAAAAAAAA6oAAAP2"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "LG Display",
+      "model": "0x0514",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAADqwAAA/cAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": false,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "key": "/home/abhinav/study/history-geography/revue-texte.txt",
+        "pathtoebook": "/home/abhinav/study/history-geography/revue-texte.txt",
+        "timestamp": "2024-12-08T14:58:26.943Z",
+        "title": "revue-texte"
+      },
+      {
+        "key": "/home/abhinav/Desktop/study/art-plastique.odt",
+        "pathtoebook": "/home/abhinav/Desktop/study/art-plastique.odt",
+        "timestamp": "2024-09-28T19:20:42.902Z",
+        "title": "art-plastique"
+      },
+      {
+        "authors": [
+          "Angélique"
+        ],
+        "key": "/home/abhinav/Downloads/stage-de-3e---mod-le-de-cv-72566.docx",
+        "pathtoebook": "/home/abhinav/Downloads/stage-de-3e---mod-le-de-cv-72566.docx",
+        "timestamp": "2024-08-31T09:41:46.715Z",
+        "title": "stage-de-3e---mod-le-de-cv-72566"
+      },
+      {
+        "key": "/home/abhinav/.cache/.fr-UBBYS2/monkeytype-master/README.md",
+        "pathtoebook": "/home/abhinav/.cache/.fr-UBBYS2/monkeytype-master/README.md",
+        "timestamp": "2024-08-19T12:00:14.676Z",
+        "title": "README"
+      },
+      {
+        "key": "/home/abhinav/Downloads/art_deco_abhinav(1).odt",
+        "pathtoebook": "/home/abhinav/Downloads/art_deco_abhinav(1).odt",
+        "timestamp": "2024-05-15T17:56:13.831Z",
+        "title": "art deco abhinav(1)"
+      }
+    ]
+  }
+}

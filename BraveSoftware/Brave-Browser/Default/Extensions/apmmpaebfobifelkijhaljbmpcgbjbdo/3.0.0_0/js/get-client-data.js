@@ -1,0 +1,1 @@
+self.clientData=new Proxy({},{get:(e,a,r)=>(r=e[a],delete e[a],r)}),document.write(`<script src="?clientData&${new URLSearchParams({dark:+matchMedia("(prefers-color-scheme:dark)").matches,url:location})}"><\/script>`);

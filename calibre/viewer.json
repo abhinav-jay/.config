@@ -1,0 +1,53 @@
+{
+  "geometry-of-print-to-pdf-geometry": {
+    "frame_geometry": {
+      "height": 322,
+      "width": 505,
+      "x": 216,
+      "y": 315
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 322,
+      "width": 505,
+      "x": 216,
+      "y": 315
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 322,
+      "width": 505,
+      "x": 216,
+      "y": 315
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAADYAAABOwAAAtAAAAJ8AAAA2AAAATsAAALQAAACfAAAAAAAAAAAB4AAAADYAAABOwAAAtAAAAJ8"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "ASUSTek COMPUTER INC",
+      "model": "ASUS VP249",
+      "name": "HDMI-A-2",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  }
+}

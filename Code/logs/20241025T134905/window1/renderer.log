@@ -1,0 +1,10 @@
+2024-10-25 13:49:06.871 [info] Started local extension host with pid 6745.
+2024-10-25 13:49:10.130 [info] [perf] Render performance baseline is 39ms
+2024-10-25 13:49:17.816 [error] Unable to read file '/home/abhinav/programming/websites/skwicks-phone/index.html' (Error: File not modified since): Error: Unable to read file '/home/abhinav/programming/websites/skwicks-phone/index.html' (Error: File not modified since)
+    at Git.F (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:69555)
+    at Git.D (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:69464)
+    at async ost.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3073:8797)
+    at async ost.readStream (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3073:8572)
+    at async $ue.Db (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1279:11960)
+    at async $ue.resolve (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1279:10435)
+    at async vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3073:5157

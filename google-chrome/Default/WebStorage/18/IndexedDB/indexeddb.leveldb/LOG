@@ -1,0 +1,6 @@
+2024/11/23-14:29:19.824 cd9 Creating DB /home/abhinav/.config/google-chrome/Default/WebStorage/18/IndexedDB/indexeddb.leveldb since it was missing.
+2024/11/23-14:29:19.839 cd9 Reusing MANIFEST /home/abhinav/.config/google-chrome/Default/WebStorage/18/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/11/23-14:43:36.518 ce4 Level-0 table #5: started
+2024/11/23-14:43:36.525 ce4 Level-0 table #5: 18816 bytes OK
+2024/11/23-14:43:36.534 ce4 Delete type=0 #3
+2024/11/23-14:43:36.535 ce4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

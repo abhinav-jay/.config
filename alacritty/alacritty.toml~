@@ -1,0 +1,21 @@
+
+
+import = [
+    "~/.config/alacritty/themes/themes/dracula.toml"
+]
+
+[window]
+
+title = "ALACRITTY"
+dynamic_title = false
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+
+[mouse]
+
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+{key = "Y", mods = "Control", action = "PasteSelection"}
+]

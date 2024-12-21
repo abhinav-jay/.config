@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: #33ccff;
+    font-size: 50;
+}
+
+.neonText {
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+
+html {
+    background-color: black;
+}
+
+video{
+    float: center;
+}

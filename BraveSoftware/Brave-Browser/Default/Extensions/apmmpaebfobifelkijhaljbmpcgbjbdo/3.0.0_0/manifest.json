@@ -1,0 +1,71 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icon/16w.png",
+         "19": "icon/19w.png",
+         "32": "icon/32w.png",
+         "38": "icon/38w.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Stylus"
+   },
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "commands": {
+      "_execute_action": {
+      },
+      "openManage": {
+         "description": "__MSG_openManage__"
+      },
+      "reload": {
+         "description": "__MSG_reload__"
+      },
+      "styleDisableAll": {
+         "description": "__MSG_disableAllStyles__"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/apply.js" ],
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/install-hook-greasyfork.js" ],
+      "matches": [ "https://greasyfork.org/*scripts/*", "https://sleazyfork.org/*scripts/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/install-hook-userstylesworld.js" ],
+      "matches": [ "https://userstyles.world/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/install-hook-userstyles.js" ],
+      "matches": [ "https://userstyles.org/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "differential_fingerprint": "1.f6183604fa8ac2942ba17037992ef4d0551c1f5298761cefb34c2a92d4494e6d",
+   "homepage_url": "https://add0n.com/stylus.html",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3D/PhIwFAsu1/nzgKJwuAThqSWDSidc7C9lhLm2PfdtZcDYlyEblKm1psJrPcfUlUd2UHmsGs3C4kP/rse3EOejk19mQ4sNiUtKbUX1+zBmBgbtOYmQ/MiDKWU9QO1DPBr0kp2K4QNcE10cwvta6ogbCayhGe7azlwQ8f61rJu3lGs0vtETcB0avhKxjXfAIWuMMUxVl3SDzYh0Z9H69ExoflfvSwnaPjQ5FydwX0JDrxUlczVzxlUesJ5d4jZ0wWHDGje2xewnbOfKwoTLeVf57Sf83EQG+fttJ5CzemJVMgG5+LZthi5leUhd7qtCve41ncNZoAUtlWzK1nKd3UQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "128",
+   "name": "Stylus (beta)",
+   "permissions": [ "alarms", "contextMenus", "declarativeNetRequestWithHostAccess", "identity", "idle", "offscreen", "scripting", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "install-usercss.html" ],
+      "use_dynamic_url": false
+   } ]
+}

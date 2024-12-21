@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<highscores version="4">
+  <highscore track-name    ="volcano_island"
+             number-karts  ="4"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="2"
+             reverse       ="false">
+             <entry time    ="261.024"
+                    name    ="max-verstappen8"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="volcano_island"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STD_TIMETRIAL"
+             number-of-laps="2"
+             reverse       ="false">
+             <entry time    ="205.162"
+                    name    ="max-verstappen8"
+                    kartname="konqi"/>
+  </highscore>
+  <highscore track-name    ="volcano_island"
+             number-karts  ="4"
+             difficulty    ="2"
+             hscore-type   ="HST_STD_TIMETRIAL"
+             number-of-laps="2"
+             reverse       ="false">
+             <entry time    ="185.562"
+                    name    ="max-verstappen8"
+                    kartname="konqi"/>
+  </highscore>
+  <highscore track-name    ="snowtuxpeak"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STD_TIMETRIAL"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="198.28"
+                    name    ="max-verstappen8"
+                    kartname="konqi"/>
+  </highscore>
+  <highscore track-name    ="ravenbridge_mansion"
+             number-karts  ="6"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="215.756"
+                    name    ="max-verstappen8"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="olivermath"
+             number-karts  ="2"
+             difficulty    ="1"
+             hscore-type   ="HST_STD_TIMETRIAL"
+             number-of-laps="2"
+             reverse       ="false">
+             <entry time    ="53.9147"
+                    name    ="Guest"
+                    kartname="gavroche"/>
+             <entry time    ="112.229"
+                    name    ="max-verstappen8"
+                    kartname="konqi"/>
+  </highscore>
+  <highscore track-name    ="cornfield_crossing"
+             number-karts  ="4"
+             difficulty    ="0"
+             hscore-type   ="HST_STD_TIMETRIAL"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="233.264"
+                    name    ="max-verstappen8"
+                    kartname="konqi"/>
+  </highscore>
+  <highscore track-name    ="cornfield_crossing"
+             number-karts  ="6"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="196.68"
+                    name    ="max-verstappen8"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="black_forest"
+             number-karts  ="4"
+             difficulty    ="0"
+             hscore-type   ="HST_STD_TIMETRIAL"
+             number-of-laps="2"
+             reverse       ="false">
+             <entry time    ="368.688"
+                    name    ="max-verstappen8"
+                    kartname="konqi"/>
+             <entry time    ="717.448"
+                    name    ="Guest"
+                    kartname="emule"/>
+  </highscore>
+</highscores>

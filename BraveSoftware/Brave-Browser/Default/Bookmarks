@@ -1,0 +1,100 @@
+{
+   "checksum": "6cd6e2abbab8c294551605bf321fa87d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13350160978000000",
+            "date_last_used": "0",
+            "guid": "ee0bc2ce-9f87-4140-b904-2e3a42f77ad2",
+            "id": "5",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/firefox/?utm_medium=firefox-desktop&utm_source=bookmarks-toolbar&utm_campaign=new-users&utm_content=-global"
+         }, {
+            "date_added": "13357211508000000",
+            "date_last_used": "0",
+            "guid": "96c823c0-fd3a-4749-9104-b8ebc9d4eda4",
+            "id": "6",
+            "name": "library",
+            "type": "url",
+            "url": "https://bibliotheque.sceaux.fr/"
+         }, {
+            "date_added": "13358619073000000",
+            "date_last_used": "0",
+            "guid": "4d1cfcb4-754e-4647-8358-e43dd068be2c",
+            "id": "7",
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13358801886000000",
+            "date_last_used": "0",
+            "guid": "3c06e8ab-b4a6-4e4e-a3f9-28599b014cc7",
+            "id": "8",
+            "name": "3. Limits and division | Limits of quotients | 18.01.1x Courseware | MIT Open Learning Library",
+            "type": "url",
+            "url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/courseware/unit0/lim_3-sequential/?activate_block_id=block-v1%3AMITx%2B18.01.1x%2B2T2019%2Btype%40sequential%2Bblock%40lim_3-sequential"
+         }, {
+            "date_added": "13365701416000000",
+            "date_last_used": "0",
+            "guid": "cba6f0bb-1ead-43b1-9bbc-4cd80fa70ecf",
+            "id": "9",
+            "name": "malaylam typing",
+            "type": "url",
+            "url": "https://www.easymalayalamtyping.com/"
+         }, {
+            "date_added": "13370622987000000",
+            "date_last_used": "0",
+            "guid": "be6e79bb-848b-4b32-acd8-c44012fd9d47",
+            "id": "10",
+            "name": "game review",
+            "type": "url",
+            "url": "https://chess.wintrcat.uk/"
+         }, {
+            "date_added": "13371328147000000",
+            "date_last_used": "0",
+            "guid": "6e768014-b8ad-4470-83b4-feda599bb0fe",
+            "id": "11",
+            "name": "My website(local)",
+            "type": "url",
+            "url": "file:///home/abhinav/programming/abhinav-jayesh-website/index.html"
+         }, {
+            "date_added": "13371328187000000",
+            "date_last_used": "0",
+            "guid": "593538ca-72c6-4f3b-b787-0b39a36523fd",
+            "id": "12",
+            "name": "My website(on github)",
+            "type": "url",
+            "url": "https://abhinav-jay.github.io/"
+         } ],
+         "date_added": "13373735168328270",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13373735168328273",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13373735168328276",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

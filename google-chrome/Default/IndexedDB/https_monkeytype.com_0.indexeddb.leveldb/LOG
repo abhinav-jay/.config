@@ -1,0 +1,7 @@
+2024/11/24-11:52:01.964 18f9 Reusing MANIFEST /home/abhinav/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/24-11:52:01.965 18f9 Recovering log #24
+2024/11/24-11:52:01.965 18f9 Reusing old log /home/abhinav/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000024.log 
+2024/11/24-11:52:02.162 18fa Level-0 table #30: started
+2024/11/24-11:52:02.164 18fa Level-0 table #30: 815 bytes OK
+2024/11/24-11:52:02.165 18fa Delete type=0 #24
+2024/11/24-11:52:02.165 18f8 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)

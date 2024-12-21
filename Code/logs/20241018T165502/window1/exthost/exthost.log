@@ -1,0 +1,62 @@
+2024-10-18 16:55:05.885 [info] Extension host with pid 14324 started
+2024-10-18 16:55:06.236 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-18 16:55:06.283 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-18 16:55:07.124 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-18 16:55:07.160 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-18 16:55:07.338 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-18 16:55:07.914 [info] Eager extensions activated
+2024-10-18 16:55:08.031 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 16:55:08.040 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 16:55:08.086 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 16:55:08.096 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 16:55:08.173 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 16:55:22.596 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:55:22.596 [error] undefined
+2024-10-18 16:55:33.171 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:55:33.171 [error] undefined
+2024-10-18 16:56:35.557 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:35.557 [error] undefined
+2024-10-18 16:56:35.778 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:35.778 [error] undefined
+2024-10-18 16:56:36.054 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:36.054 [error] undefined
+2024-10-18 16:56:36.460 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:36.460 [error] undefined
+2024-10-18 16:56:37.167 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:37.167 [error] undefined
+2024-10-18 16:56:37.334 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:37.335 [error] undefined
+2024-10-18 16:56:37.427 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:37.428 [error] undefined
+2024-10-18 16:56:37.639 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:37.639 [error] undefined
+2024-10-18 16:56:38.414 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:38.415 [error] undefined
+2024-10-18 16:56:38.968 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:38.969 [error] undefined
+2024-10-18 16:56:39.617 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:39.617 [error] undefined
+2024-10-18 16:56:41.200 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:41.200 [error] undefined
+2024-10-18 16:56:41.546 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:41.546 [error] undefined
+2024-10-18 16:56:41.758 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:41.758 [error] undefined
+2024-10-18 16:56:41.920 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:41.920 [error] undefined
+2024-10-18 16:56:42.123 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:42.123 [error] undefined
+2024-10-18 16:56:42.315 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:42.315 [error] undefined
+2024-10-18 16:56:42.814 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:42.814 [error] undefined
+2024-10-18 16:56:42.949 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:42.949 [error] undefined
+2024-10-18 16:56:43.093 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:43.093 [error] undefined
+2024-10-18 16:56:43.269 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:56:43.269 [error] undefined
+2024-10-18 16:57:15.901 [error] [ecmel.vscode-html-css] provider FAILED
+2024-10-18 16:57:15.901 [error] undefined
+2024-10-18 17:08:26.716 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-18 17:08:26.755 [info] Extension host with pid 14324 exiting with code 0

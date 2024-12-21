@@ -1,0 +1,5 @@
+2024-10-02 17:13:18.834 [info] Extension host with pid 21305 started
+2024-10-02 17:13:18.834 [info] Skipping acquiring lock for /home/abhinav/.config/Code/User/workspaceStorage/c551b248b05466446ac245489e45e09e.
+2024-10-02 17:13:19.148 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-02 17:13:19.198 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-02 17:13:19.199 [info] Extension host with pid 21305 exiting with code 0

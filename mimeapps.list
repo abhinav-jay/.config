@@ -1,0 +1,24 @@
+[Added Associations]
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;calibre-ebook-viewer.desktop;
+application/sgml-open-catalog=emacs.desktop;
+application/pdf=google-chrome.desktop;libreoffice-draw.desktop;
+x-scheme-handler/http=firefox-esr.desktop;
+x-scheme-handler/https=firefox-esr.desktop;
+text/html=firefox-esr.desktop;
+text/plain=libreoffice-writer.desktop;
+
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/pdf=libreoffice-draw.desktop
+x-scheme-handler/chrome=firefox-esr.desktop
+application/x-extension-htm=firefox-esr.desktop
+application/x-extension-html=firefox-esr.desktop
+application/x-extension-shtml=firefox-esr.desktop
+application/xhtml+xml=firefox-esr.desktop
+application/x-extension-xhtml=firefox-esr.desktop
+application/x-extension-xht=firefox-esr.desktop
+text/plain=libreoffice-writer.desktop

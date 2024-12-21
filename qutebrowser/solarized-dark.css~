@@ -1,0 +1,10 @@
+/* from https://github.com/alphapapa/solarized-everything-css/blob/master/css/solarized-all-sites-dark.css */
+
+* {
+    border-color: #21222c !important;
+}
+
+
+a {
+    color: #bd93f9!important;
+}

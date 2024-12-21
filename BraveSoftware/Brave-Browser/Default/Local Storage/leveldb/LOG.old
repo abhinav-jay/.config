@@ -1,0 +1,11 @@
+2024/11/03-15:33:52.812 6 Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2024/11/03-15:33:52.814 6 Recovering log #3
+2024/11/03-15:33:52.834 6 Level-0 table #3: started
+2024/11/03-15:33:52.884 6 Level-0 table #3: 713894 bytes OK
+2024/11/03-15:33:52.886 6 Recovering log #4
+2024/11/03-15:33:52.889 6 Reusing old log /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000004.log 
+2024/11/03-15:33:52.898 6 Delete type=2 #5
+2024/11/03-15:33:52.898 6 Delete type=0 #3
+2024/11/03-15:52:28.292 6 Level-0 table #6: started
+2024/11/03-15:52:28.312 6 Level-0 table #6: 79964 bytes OK
+2024/11/03-15:52:28.315 6 Delete type=0 #4

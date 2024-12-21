@@ -1,0 +1,23 @@
+2024-12-13 17:15:04.393 [info] Deleted uninstalled extension from disk ecmel.vscode-html-css /home/abhinav/.vscode/extensions/ecmel.vscode-html-css-2.0.10
+2024-12-13 17:15:04.423 [info] Deleted uninstalled extension from disk equinusocio.vsc-material-theme /home/abhinav/.vscode/extensions/equinusocio.vsc-material-theme-34.7.5
+2024-12-13 17:15:04.463 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhinav/.vscode/extensions/ecmel.vscode-html-css-2.0.10.760a9f44.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhinav/.vscode/extensions/ecmel.vscode-html-css-2.0.10.760a9f44.vsctmp'
+    at hm.create (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-12-13 17:15:06.759 [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+2024-12-13 17:15:06.824 [info] Installing extension: equinusocio.vsc-material-theme-icons {"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/abhinav/.vscode/extensions/extensions.json","path":"/home/abhinav/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-12-13 17:15:08.349 [info] Extension signature verification result for equinusocio.vsc-material-theme-icons: Success. Executed: true. Duration: 1162ms.
+2024-12-13 17:15:12.308 [info] Extracted extension to file:///home/abhinav/.vscode/extensions/equinusocio.vsc-material-theme-icons-3.8.10: equinusocio.vsc-material-theme-icons
+2024-12-13 17:15:12.318 [info] Renamed to /home/abhinav/.vscode/extensions/equinusocio.vsc-material-theme-icons-3.8.10
+2024-12-13 17:15:12.368 [info] Marked extension as uninstalled equinusocio.vsc-material-theme-icons-3.8.8
+2024-12-13 17:15:12.391 [info] Extension installed successfully: equinusocio.vsc-material-theme-icons vscode-userdata:/home/abhinav/.vscode/extensions/extensions.json
+2024-12-13 17:15:12.429 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/abhinav/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/abhinav/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///snap/code/175/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

@@ -1,0 +1,7 @@
+2024/10/05-16:03:32.143 2ca7 Reusing MANIFEST /home/abhinav/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/05-16:03:32.143 2ca7 Recovering log #3
+2024/10/05-16:03:32.144 2ca7 Reusing old log /home/abhinav/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
+2024/10/05-16:04:04.153 2ca8 Level-0 table #5: started
+2024/10/05-16:04:04.155 2ca8 Level-0 table #5: 1682 bytes OK
+2024/10/05-16:04:04.156 2ca8 Delete type=0 #3
+2024/10/05-16:04:04.157 2ca8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
