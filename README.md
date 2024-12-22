@@ -1,7 +1,7 @@
 # Abhinav Jayesh’s dotfiles
 
 My dotfiles for sway desktop. 
-## Dependencies:
+## Dependencies
 Wofi,
 waybar,
 sway,
@@ -18,7 +18,7 @@ bash (optionnal: if you don't have bash, you can directly run all the commands i
 ## notes
 
 I have a wallpaper called wallpaper.jpg in my Downloads folder, you will need that file.
-The theme used is tokyonight storm except for wofi. Wofi is in nord theme. I was using nord theme before and haven't changed my wofi theme, I will change it soon.
+The theme used is tokyonight storm except for wofi. Wofi is in nord theme. I was using nord theme before and haven't changed my wofi theme yet, I will change it soon.
 
 Feel free to use the config :).
 
