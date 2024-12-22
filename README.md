@@ -11,6 +11,8 @@ bash (optionnal: if you don't have bash, you can directly run all the commands i
 
 ` git clone https://github.com/abhinav-jay/.config/ `
 
+` cd .config `
+
 ` bash installer.sh `
 
 
