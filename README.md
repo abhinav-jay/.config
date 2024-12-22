@@ -7,7 +7,7 @@ waybar,
 sway.
 ## installation
 
-''' git clone https://github.com/abhinav-jay/.config/main '''
+` git clone https://github.com/abhinav-jay/.config/main `
 
 
 Feel free to use :D.
