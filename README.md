@@ -9,7 +9,7 @@ bash (optionnal: if you don't have bash, you can directly run all the commands i
 
 ## installation
 
-` git clone https://github.com/abhinav-jay/.config/main `
+` git clone https://github.com/abhinav-jay/.config/tree/main `
 
 ` bash installer.sh `
 
