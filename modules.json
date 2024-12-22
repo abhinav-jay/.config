@@ -1,0 +1,154 @@
+
+{
+    // Workspaces
+"sway/workspaces": {
+         "disable-scroll": true,
+         "disable-markup" : false,
+         "all-outputs": true,
+         "format": "  {icon}  ",
+         //"format":"{icon}",
+         "format-icons": {
+             "1": "1",
+             "2": "2",
+             "3": "3",
+             "4": "4",
+             "5": "5",
+             "6": "6",
+	     "7": "7",
+	     "9": "8",
+	     "9": "9",
+	     "10": "10",
+             "focused": "focus",
+             "default": ""
+         }
+     },
+
+    // sway Window
+    "sway/window": {
+	"rewrite": {
+	    "(.*) - Brave": "$1",
+	    "(.*) - Chromium": "$1",
+	    "(.*) - Brave Search": "$1",
+	    "(.*) - Outlook": "$1",
+	    "(.*) Microsoft Teams": "$1"
+	},
+	"separate-outputs": true
+    },
+
+    "custom/uptime": {
+	"format": "{}",
+	"exec": "utpime -i 5s",
+	"return-type": "json"
+    },
+
+
+      // System tray
+    "tray": {
+	// "icon-size": 21,
+	"spacing": 10
+    },
+
+    // Clock
+    "clock": {
+	"format": "{:%H:%M %a}",
+	"on-click": "ags -t calendar",
+	"tooltip": false
+    },
+
+    "sway/language": {
+	"format": "/ K {short}"
+    },
+
+	"modules": [
+	    "custom/system",
+	    "disk",
+	    "cpu",
+	    "memory",
+	    "sway/language"
+	]
+    },
+
+    // Group Settings
+    "group/settings": {
+	"orientation": "inherit",
+	"drawer": {
+	    "transition-duration": 300,
+	    "children-class": "not-memory",
+	    "transition-left-to-right": false
+	},        
+	"modules": [
+	    "custom/settings",
+	    "custom/waybarthemes",
+	    "custom/wallpaper"
+	]
+    },
+
+    // Group Quicklinks
+    "group/quicklinks": {
+	"orientation": "horizontal",
+	"modules": [
+	    "custom/filemanager",
+	    "custom/browser"
+	]
+    },
+
+    // Network
+    "network": {
+	"format": "{ifname}",
+	"format-wifi": "   {signalStrength}%",
+	"format-ethernet": "  {ipaddr}",
+	"format-disconnected": "Not connected", //An empty format will hide the module.
+	"tooltip-format": " {ifname} via {gwaddri}",
+	"tooltip-format-wifi": "   {essid} ({signalStrength}%)",
+	"tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+	"tooltip-format-disconnected": "Disconnected",
+	"max-length": 50,
+	"on-click": "alacritty -e nmtui"
+    },
+
+    // Battery
+    "battery": {
+	"states": {
+	    // "good": 95,
+	    "warning": 30,
+	    "critical": 15
+	},
+	"format": "{icon}   {capacity}%",
+	"format-charging": "☇ {capacity}%",
+	"format-plugged": "  {capacity}%",
+	"format-alt": "{icon}  {time}",
+	// "format-good": "", // An empty format will hide the module
+	// "format-full": "",
+	"format-icons": [" ", " ", " ", " ", " "]
+    },
+
+    // Pulseaudio
+    "pulseaudio": {
+	// "scroll-step": 1, // %, can be a float
+	"format": "{icon} {volume}%",
+	"format-bluetooth": "{volume}%  {icon} {format_source}",
+	"format-bluetooth-muted": "  {icon} {format_source}",
+	"format-muted": "  {format_source}",
+	"format-source": "{volume}% ",
+	"format-source-muted": "",
+	"format-icons": {
+	    "headphone": "",
+	    "hands-free": "",
+	    "headset": "",
+	    "phone": "",
+	    "portable": "",
+	    "car": "",
+	    "default": ["", " ", " "]
+	},
+	"on-click": "pavucontrol"
+    },
+
+    // Bluetooth
+    "bluetooth": {
+	"format-disabled": "",
+	"format-off": "",
+	"interval": 30,
+	"on-click": "blueman-manager",
+	"format-no-controller": ""
+    },
+
