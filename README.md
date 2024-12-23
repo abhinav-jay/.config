@@ -4,8 +4,7 @@ My dotfiles for sway desktop.
 ## Dependencies
 Wofi,
 waybar,
-sway,
-bash (optionnal: if you don't have bash, you can directly run all the commands in the installer.sh in your terminal) 
+sway.
 
 ## installation
 
