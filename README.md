@@ -11,10 +11,6 @@ bash (optionnal: if you don't have bash, you can directly run all the commands i
 
 ` git clone https://github.com/abhinav-jay/.config/ `
 
-` cd .config `
-
-` bash installer.sh `
-
 ## notes
 
 I have a wallpaper called wallpaper.jpg in my Downloads folder, you will need that file.
