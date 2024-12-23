@@ -1,0 +1,4 @@
+(load-theme 'zenburn t)
+(add-to-list 'default-frame-alist '(font . "Fira Code Retina-20"))
+
+
