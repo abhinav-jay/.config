@@ -1,3 +1,6 @@
-2024/12/18-19:19:17.741 4a4f Reusing MANIFEST /home/abhinav/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
-2024/12/18-19:19:17.741 4a4f Recovering log #3
-2024/12/18-19:19:17.745 4a4f Reusing old log /home/abhinav/.config/google-chrome/Default/shared_proto_db/000003.log 
+2024/12/27-14:58:18.576 34a8 Reusing MANIFEST /home/abhinav/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2024/12/27-14:58:18.577 34a8 Recovering log #3
+2024/12/27-14:58:18.581 34a8 Reusing old log /home/abhinav/.config/google-chrome/Default/shared_proto_db/000003.log 
+2024/12/27-14:58:18.670 34a7 Level-0 table #5: started
+2024/12/27-14:58:18.676 34a7 Level-0 table #5: 123342 bytes OK
+2024/12/27-14:58:18.678 34a7 Delete type=0 #3

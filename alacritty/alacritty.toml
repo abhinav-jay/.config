@@ -6,8 +6,9 @@ import = [
 
 title = "alacritty"
 dynamic_title = false
-padding = { x = 10, y = 10 }
 dynamic_padding = true
+blur = true
+opacity = 0.8
 
 [mouse]
 
