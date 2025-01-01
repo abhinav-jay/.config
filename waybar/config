@@ -29,6 +29,7 @@
         "bluetooth",
         "battery", 
         "network",
-        "clock"
+        "clock",
+        "custom/weather"
     ]
 }

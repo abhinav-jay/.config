@@ -1,5 +1,12 @@
 
 {
+//weather
+"custom/weather": {
+        "format": "{}",        // How the weather data is displayed
+        "exec": "~/.config/waybar/weather.sh",  // Path to the weather script
+        "interval": 300              // Refresh interval in seconds (10 minutes)
+    },
+
     // Workspaces
 "sway/workspaces": {
          "disable-scroll": true,
