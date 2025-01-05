@@ -1,13 +1,14 @@
-2025/01/01-15:19:32.685 5504 Reusing MANIFEST /home/abhinav/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/01/01-15:19:32.686 5504 Recovering log #29
-2025/01/01-15:19:32.687 5504 Reusing old log /home/abhinav/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000029.log 
-2025/01/01-15:19:32.932 551e Level-0 table #33: started
-2025/01/01-15:19:32.935 551e Level-0 table #33: 3117 bytes OK
-2025/01/01-15:19:32.938 551e Delete type=0 #29
-2025/01/01-15:19:32.939 5503 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 579 : 1
-2025/01/01-15:19:32.940 5503 Compacting 1@0 + 1@1 files
-2025/01/01-15:19:32.943 5503 Generated table #34@0: 32 keys, 1815 bytes
-2025/01/01-15:19:32.944 5503 Compacted 1@0 + 1@1 files => 1815 bytes
-2025/01/01-15:19:32.944 5503 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/01/01-15:19:32.945 5503 Delete type=2 #33
-2025/01/01-15:19:32.945 5503 Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 579 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/02-14:15:21.436 968d Reusing MANIFEST /home/abhinav/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/02-14:15:21.436 968d Recovering log #32
+2025/01/02-14:15:21.439 968d Reusing old log /home/abhinav/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000032.log 
+2025/01/02-14:15:21.439 968d Delete type=2 #30
+2025/01/02-14:15:21.618 968d Level-0 table #37: started
+2025/01/02-14:15:21.619 968d Level-0 table #37: 3968 bytes OK
+2025/01/02-14:15:21.621 968d Delete type=0 #32
+2025/01/02-14:15:21.621 968b Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 672 : 1
+2025/01/02-14:15:21.621 968b Compacting 1@0 + 1@1 files
+2025/01/02-14:15:21.623 968b Generated table #38@0: 48 keys, 1818 bytes
+2025/01/02-14:15:21.623 968b Compacted 1@0 + 1@1 files => 1818 bytes
+2025/01/02-14:15:21.624 968b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/02-14:15:21.625 968b Delete type=2 #37
+2025/01/02-14:15:21.625 968b Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 672 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)

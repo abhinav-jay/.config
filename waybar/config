@@ -14,17 +14,18 @@
 
     // Modules Left
     "modules-left": [
-        "sway/window",
+        "hyprland/window",
         "custom/empty"
     ],
 
     // Modules Center
     "modules-center": [
-        "sway/workspaces"
+        "hyprland/workspaces"
     ],
 
     // Modules Right    
     "modules-right": [
+        "custom/uptime",
         "pulseaudio",
         "bluetooth",
         "battery", 

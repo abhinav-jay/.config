@@ -8,7 +8,7 @@
     },
 
     // Workspaces
-"sway/workspaces": {
+"hyprland/workspaces": {
          "disable-scroll": true,
          "disable-markup" : false,
          "all-outputs": true,
@@ -25,13 +25,12 @@
 	     "9": "8",
 	     "9": "9",
 	     "10": "10",
-             "focused": "focus",
              "default": ""
          }
      },
 
     // sway Window
-    "sway/window": {
+    "hyprland/window": {
 	"rewrite": {
 	    "(.*) - Brave": "$1",
 	    "(.*) - Chromium": "$1",
@@ -43,9 +42,9 @@
     },
 
     "custom/uptime": {
-	"format": "{}",
-	"exec": "utpime -i 5s",
-	"return-type": "json"
+"format": "{}",
+    "exec": "bash ~/.config/waybar/uptime.sh",
+    "interval": 30
     },
 
 
@@ -62,7 +61,7 @@
 	"tooltip": false
     },
 
-    "sway/language": {
+    "hyprland/language": {
 	"format": "/ K {short}"
     },
 

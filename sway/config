@@ -32,14 +32,6 @@ client.background        $base01
 default_border pixel 3
 
 
-input "type:keyboard" {
-    repeat_delay 400
-    repeat_rate 50
-    xkb_layout "us,us"
-    xkb_variant ",workman"
-}
-
-
 # grimshot screenshot
 # Default config for sway
 #
@@ -65,7 +57,6 @@ bindsym $mod+e exec emacs
 bindsym $mod+b exec firefox
 bindsym $mod+alt+l exec swaylock -c 2e3440 -K --line-color 88c0d0 --indicator-idle-visible --indicator-radius 150 --indicator-thickness 5 --inside-color 2e3440 --inside-ver-color 2e3340 --line-ver-color 88c0d0
 
-bindsym $mod+k exec swaymsg input "type:keyboard" xkb_switch_layout next
 
 # Audio: use pactl to adjust volume in PulseAudio.
 bindsym $mod+p exec pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -145,10 +136,10 @@ output * bg /home/abhinav/Downloads/wallpaper.jpg fill
 # Moving around:
 #
     # Or use $mod+[up|down|left|right]
-    bindsym $mod+Left focus left
-    bindsym $mod+Down focus down
-    bindsym $mod+Up focus up
-    bindsym $mod+Right focus right
+    bindsym $mod+h focus left
+    bindsym $mod+j focus down
+    bindsym $mod+k focus up
+    bindsym $mod+l focus right
 
     # Move the focused window with the same, but add Shift
     bindsym $mod+Shift+$left move left
@@ -199,7 +190,7 @@ output * bg /home/abhinav/Downloads/wallpaper.jpg fill
     # Switch the current container between different layout styles
     bindsym $mod+s layout stacking
     bindsym $mod+t layout tabbed
-    bindsym $mod+l layout toggle split
+    bindsym $mod+shift+return layout toggle split
 
     # Make the current focus fullscreen
     bindsym $mod+f fullscreen
@@ -270,3 +261,5 @@ bar {
 }
 
 include /etc/sway/config.d/*
+exec killall swaync
+exec swaync
