@@ -1,54 +1,58 @@
+* {
+    font-family: "JetBrains Mono", "Font Awesome 5 Free";
+    font-size: 14px;
+}
+
 window {
-margin: 0px;
-border-radius: 12px;
-border: 1px solid #f7768b;
-background-color: #24283b;
+    background-color: rgba(26, 27, 38, 0.95);  /* Semi-transparent background */
+    border-radius: 12px;  /* Rounded corners */
+    border: 1px solid #7aa2f7;  /* Border color */
+    color: #a9b1d6;  /* Text color */
 }
 
 #input {
-margin: 5px;
-border: none;
-border-radius: 12px;
-color: #f8f8f2;
-background-color: #44475a;
+    background-color: #1a1b26;  /* Input field background */
+    border: none;
+    border-radius: 12px;  /* Rounded corners */
+    color: #a9b1d6;  /* Input text color */
+    padding: 8px;
+    margin: 5px;
 }
 
 #inner-box {
-margin: 5px;
-border: none;
-border-radius: 12px;
-background-color: #282a36;
+    background-color: transparent;
+    border-radius: 12px;  /* Rounded corners */
+    padding: 5px;
 }
 
 #outer-box {
-margin: 5px;
-border: none;
-background-color: #282a36;
+    background-color: transparent;
+    border-radius: 12px;  /* Rounded corners */
+    padding: 10px;
 }
 
 #scroll {
-margin: 0px;
-border: none;
+    background-color: transparent;
+    border-radius: 12px;  /* Rounded corners */
 }
 
 #text {
-margin: 5px;
-border: none;
-color: #f8f8f2;
-} 
-
-#entry.activatable #text {
-color: #24283b;
+    color: #a9b1d6;  /* Text color */
+    padding: 5px;
 }
 
-#entry > * {
-color: #f8f8f2;
+#entry {
+    background-color: transparent;
+    border-radius: 12px;  /* Rounded corners */
+    padding: 5px;
 }
 
 #entry:selected {
-background-color: #44475a;
+    background-color: rgba(122, 162, 247, 0.2);  /* Highlight selected entry */
+    border: none;
+    border-radius: 12px;  /* Rounded corners */
 }
 
 #entry:selected #text {
-font-weight: bold;
+    color: #7aa2f7;  /* Highlight text color */
 }

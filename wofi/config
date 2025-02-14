@@ -1,0 +1,9 @@
+location=center
+width=600
+height=300
+show=drun
+prompt=Search...
+filter_rate=100
+allow_markup=true
+hide_scroll=true
+lines=10
