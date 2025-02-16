@@ -12,3 +12,5 @@ __      _____| | ___ ___  _ __ ___   ___
     alias e="emacs -nw"
 # Commands to run in interactive sessions can go here
 end
+
+starship init fish | source

@@ -7,21 +7,21 @@
     "margin-bottom": 2,
     "margin-left": 10,
     "margin-right": 10,
-    "modules-left": ["custom/launcher","custom/logout", "sway/workspaces"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["sway/mode", "pulseaudio", "network", "cpu", "memory", "battery", "clock", "tray"],
-    "sway/workspaces": {
+    "modules-left": ["custom/launcher","custom/logout","custom/weather", "hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["hyprland/submap", "pulseaudio", "network", "cpu", "memory", "battery", "clock", "tray"],
+    "hyprland/workspaces": {
         "format": "{name}",
         "on-click": "activate",
         "active-only": false
     },
-    "sway/window": {
+    "hyprland/window": {
         "format": "{}",
         "max-length": 50,
         "tooltip": false
     },
-    "sway/mode": {
-        "format": " {}",  // Icon for mode (e.g., )
+    "hyprland/submap": {
+        "format": " {}",  // Icon for submap (e.g., )
         "tooltip": false
     },
 
@@ -40,6 +40,21 @@
         "tooltip-format": "{:%A, %B %d, %Y}",
         "interval": 1
     },
+    "custom/weather": {
+        "exec": "/home/abhinav/.config/waybar/scripts/weather.sh",
+        "interval": 600,  // Update every 10 minutes
+        "format": "{icon} {temp}",
+        "return-type": "json",
+    },
+
+//weather
+    "custom/weather": {
+        "format": "{}",        // How the weather data is displayed
+        "exec": "~/.config/waybar/scripts/weather.sh",  // Path to the weather script
+        "interval": 300              // Refresh interval in seconds (10 minutes)
+    },
+
+
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "format-muted": " Muted",

@@ -11,6 +11,7 @@ window#waybar {
     color: #a9b1d6;
     border-radius: 12px;  /* Rounded corners for the bar */
     padding: 0 10px;
+    border: 1px solid #7aa2f7;
 }
 
 #workspaces button {
@@ -21,7 +22,7 @@ window#waybar {
     transition: all 0.3s ease;  /* Smooth transition */
 }
 
-#workspaces button.focused {
+#workspaces button.active {
     background: rgba(122, 162, 247, 0.2);  /* Highlight focused workspace */
     color: #7aa2f7;
     border-radius: 12px;
@@ -69,7 +70,7 @@ window#waybar {
     border-radius: 12px;
 }
 
-#battery, #cpu, #memory, #network, #pulseaudio, #tray, #custom-launcher {
+#battery, #cpu, #memory, #network, #pulseaudio, #tray, #custom-launcher, #custom-weather {
     padding: 0 10px;
     margin: 0 5px;
     background: transparent;

@@ -14,7 +14,6 @@ y = 4
 
 [window]
 
-title = "alacritty"
 dynamic_title = true 
 dynamic_padding = true
 blur = true
@@ -30,5 +29,5 @@ bindings = [
 ]
 
 [shell]
-program = "/usr/bin/zsh"
+program = "/usr/bin/fish"
 args = ["-l"]
